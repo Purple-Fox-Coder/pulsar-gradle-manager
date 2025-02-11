@@ -9,3 +9,4 @@ npm-debug.log
 /atom-gradle-manager.iml
 node_modules
 build
+package-lock.json
