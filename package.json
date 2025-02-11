@@ -2,7 +2,7 @@
   "name": "gradle-manager",
   "main": "./lib/main",
   "version": "0.0.5",
-  "description": "Manage gradle from inside your editor",
+  "description": "Manage gradle from inside pulsar",
   "keywords": [
     "gradle",
     "manager",
