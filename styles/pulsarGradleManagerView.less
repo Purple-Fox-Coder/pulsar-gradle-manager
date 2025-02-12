@@ -26,6 +26,43 @@
   align-items: center;
 }
 
+.gradleDropDownButton {
+  min-height: @component-line-height;
+  width: 100%;
+}
+
+.gradleDropDown {
+  min-height: @component-line-height;
+
+  min-width: 6 * @component-line-height;
+  position: relative;
+  display: inline-block;
+}
+
+.gradleDropDownMenu {
+  top: 100%;
+  left: 0;
+
+  max-height: 6 * @component-line-height;
+  overflow-y: auto;
+
+  display: none;
+  position: absolute;
+  background-color: inherit;
+  min-width: inherit;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.gradleDropDownShow {
+  display: block;
+}
+
+.gradleDropDownItem {
+  min-width: 100%;
+  min-height: @component-line-height;
+}
+
 .BodyDiv {
   display: flex;
   flex-grow: 1;
