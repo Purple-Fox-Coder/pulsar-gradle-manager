@@ -1,0 +1,54 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+:root {
+  --gradleManager-header-background: @app-background-color;
+
+  --gradleManager-body-background: @base-background-color;
+  --gradleManager-body-text: @text-color;
+}
+
+.pulsarGradleManagerView {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  font-family: @font-family;
+  font-size: @font-size;
+  padding: @component-padding;
+}
+
+.HeaderDiv {
+  background-color: var(--gradleManager-header-background);
+}
+
+.BodyDiv {
+  flex-grow: 1;
+  background-color: var(--gradleManager-body-background);
+}
+
+.gradleIcon {
+  background-color: @button-background-color;
+  padding: @component-icon-padding;
+  font-size: @component-icon-size;
+}
+
+.gradleB {
+  padding-left: 5%;
+}
+
+.gradleInput {
+  flex-grow: 1;
+  width: 40%;
+  padding-left: 1%;
+  border: 1px solid var(--gradleManager-header-background);
+  border-radius: @component-border-radius;
+
+  font-size: @input-font-size;
+
+  background-color: var(--gradleManager-body-background);
+  color: var(--gradleManager-body-text);
+}
