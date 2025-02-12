@@ -27,14 +27,16 @@
 }
 
 .gradleDropDownButton {
-  min-height: @component-line-height;
+  min-height: @component-line-height - 1px;
   width: 100%;
 }
 
 .gradleDropDown {
+  padding-left: @component-line-height;
+
   min-height: @component-line-height;
 
-  min-width: 6 * @component-line-height;
+  min-width: 7 * @component-line-height;
   position: relative;
   display: inline-block;
 }
