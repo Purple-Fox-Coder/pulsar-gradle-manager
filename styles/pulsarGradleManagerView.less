@@ -26,8 +26,36 @@
 }
 
 .BodyDiv {
+  display: flex;
   flex-grow: 1;
-  background-color: var(--gradleManager-body-background);
+  width: 100%;
+
+  background-color: var(--gradleManager-header-background);
+  align-items: center;
+}
+
+.gradleLogger {
+  display: flex;
+  flex-direction: column;
+
+  flex-grow: inherit;
+  width: inherit;
+  height: 20em;
+
+  overflow-y: auto;
+  white-space: pre-wrap;
+
+  padding-left: 1%;
+  border: 1px solid var(--gradleManager-header-background);
+  border-radius: @component-border-radius;
+
+  padding: 0.5%;
+  background-color: var(--gradleManager-body-background)
+}
+
+.gradleLog {
+  width: 100%;
+  height: min-content;
 }
 
 .gradleIcon {
