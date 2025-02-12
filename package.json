@@ -9,24 +9,12 @@
     "gradlefile",
     "runner"
   ],
-  "repository": "https://github.com/henjue/atom-gradle-manager",
+  "repository": "https://github.com/Purple-Fox-Coder/pulsar-gradle-manager",
   "license": "BSD3",
+  "deserializers": {
+    "gradle-manager/PulsarGradleManagerView": "deserializePulsarGradleManagerView"
+  },
   "engines": {
-    "atom": ">=1.0.0"
-  },
-  "dependencies": {
-    "ansi-to-html": "^0.3.0",
-    "atom-bottom-dock": "^0.5.3",
-    "space-pen": "^5.1.1"
-  },
-  "packageDependencies": {
-    "bottom-dock": "0.3.6"
-  },
-  "consumedServices": {
-    "bottom-dock": {
-      "versions": {
-        "^0.2.0": "consumeBottomDock"
-      }
-    }
+    "atom": ">=1.0.0 <2.0.0"
   }
 }
