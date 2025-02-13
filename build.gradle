@@ -1,17 +1,25 @@
 //only test
-task tasks1 << {
+task tasks1 {
+  doLast {
     println "the current task name is $name"
     println "hello world"
+  }
 }
-task tasks2 << {
+task tasks2 {
+  doLast {
     println "the current task name is $name"
     println "hello world"
+  }
 }
-task tasks3 << {
+task tasks3 {
+  doLast {
     println "the current task name is $name"
     println "hello world"
+  }
 }
-task tasks4 << {
+task tasks4 {
+  doLast {
     println "the current task name is $name"
     println "hello world"
+  }
 }
